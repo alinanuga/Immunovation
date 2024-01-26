@@ -24,7 +24,7 @@ python bert_finetuning_seq2seq_main.py --config ./config/common/bert_finetuning_
 ```
 Результат сохранится в папке `../Result_seq2seq/checkpoints/ABAG-Finetuning-Seq2seq-Common/XXXX_XXXXXX/`.
 
-### 4. Генерауия последовательностей CDR3H антитела
+### 3. Генерауия последовательностей CDR3H антитела
 
 ```bash
 python generate_antibody.py --config ./config/common/seq2seq_generate.json
@@ -33,7 +33,7 @@ python generate_antibody.py --config ./config/common/seq2seq_generate.json
 
 Сгенерированный файл содержит пять столбцов: Antigen, Generated_CDR_H3, Heavy_Chain, Light_Chain. Среди них Antigen и Light_Chain не отличаются от входных данных, Generated_CDR_H3 представляет собой последовательность области cdrh3, сгенерированную моделью, а Heavy_Chain заменяет естественную тяжелую область cdrh3 сгенерированной последовательностью Generated_CDR_H3.
 
-### 5. Предсказание аффиннности сгенерированных антител
+### 4. Предсказание аффиннности сгенерированных антител
 
 ```bash
 python eval_generate_seq.py --config ./config/common/bert_eval_generation.json
