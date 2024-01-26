@@ -1,0 +1,14 @@
+2024-01-26 18:54:01,118 - train - INFO - 10718 train and 1340 valid and 1340 test.
+2024-01-26 18:54:01,118 - train - INFO - Creating cdr3 tokenizer...
+2024-01-26 18:54:01,118 - train - INFO - Using common tokenizer.
+2024-01-26 18:54:01,118 - train - INFO - Loading pre-trained tokenizer...
+2024-01-26 18:54:01,118 - train - INFO - Creating antigen tokenizer...
+2024-01-26 18:54:01,118 - train - INFO - Using common tokenizer.
+2024-01-26 18:54:01,119 - train - INFO - Loading pre-trained tokenizer...
+2024-01-26 18:54:01,120 - train - INFO - The input to the encoder is antigen
+2024-01-26 18:54:01,120 - train - INFO - The input to the encoder is antigen
+2024-01-26 18:54:01,120 - train - INFO - The input to the encoder is antigen
+2024-01-26 18:54:01,120 - train - INFO - Loading pre-trained model from ../Result_seq2seq/checkpoints/ABAG-Finetuning-Seq2seq-Common/0126_114653
+2024-01-26 18:54:06,112 - train - INFO - The input is antigen, generate antibody sequences.
+2024-01-26 18:54:09,556 - train - INFO - output tensor([24, 24,  0, 14,  2, 19,  1, 15, 15,  5,  5, 15,  2,  5, 19,  4,  2, 23],
+       device='cuda:0') -> output string ARDYCSSGGSDGYFD

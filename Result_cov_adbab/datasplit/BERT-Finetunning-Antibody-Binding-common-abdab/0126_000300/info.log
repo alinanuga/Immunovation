@@ -1,0 +1,10 @@
+2024-01-26 00:03:00,756 - train - INFO - Shuffling dataset
+2024-01-26 00:03:00,756 - train - INFO - There are 27324 samples
+2024-01-26 00:03:00,756 - train - INFO - Using common tokenizer.
+2024-01-26 00:03:00,756 - train - INFO - Loading pre-trained tokenizer...
+2024-01-26 00:03:00,757 - train - INFO - Using common tokenizer.
+2024-01-26 00:03:00,757 - train - INFO - Loading pre-trained tokenizer...
+2024-01-26 00:03:00,757 - train - INFO - Using common tokenizer.
+2024-01-26 00:03:00,757 - train - INFO - Loading pre-trained tokenizer...
+2024-01-26 00:03:01,281 - train - INFO - Number of pairs in train: 21860, valid: 2732, and test: 2732.
+2024-01-26 00:03:26,994 - trainer - WARNING - Warning: visualization (Tensorboard) is configured to use, but currently not installed on this machine. Please install TensorboardX with 'pip install tensorboardx', upgrade PyTorch to version >= 1.1 to use 'torch.utils.tensorboard' or turn off the option in the 'config.json' file.

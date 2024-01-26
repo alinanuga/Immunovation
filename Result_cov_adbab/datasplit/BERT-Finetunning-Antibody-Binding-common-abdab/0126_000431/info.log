@@ -1,0 +1,55 @@
+2024-01-26 00:04:31,802 - train - INFO - Shuffling dataset
+2024-01-26 00:04:31,802 - train - INFO - There are 27324 samples
+2024-01-26 00:04:31,802 - train - INFO - Using common tokenizer.
+2024-01-26 00:04:31,802 - train - INFO - Loading pre-trained tokenizer...
+2024-01-26 00:04:31,803 - train - INFO - Using common tokenizer.
+2024-01-26 00:04:31,803 - train - INFO - Loading pre-trained tokenizer...
+2024-01-26 00:04:31,803 - train - INFO - Using common tokenizer.
+2024-01-26 00:04:31,803 - train - INFO - Loading pre-trained tokenizer...
+2024-01-26 00:04:32,067 - train - INFO - Number of pairs in train: 21860, valid: 2732, and test: 2732.
+2024-01-26 00:04:36,115 - trainer - WARNING - Warning: visualization (Tensorboard) is configured to use, but currently not installed on this machine. Please install TensorboardX with 'pip install tensorboardx', upgrade PyTorch to version >= 1.1 to use 'torch.utils.tensorboard' or turn off the option in the 'config.json' file.
+2024-01-26 00:55:21,512 - trainer - INFO - epoch: 1
+2024-01-26 00:55:21,513 - trainer - INFO -     train          : loss           : 0.63	accuracy       : 0.65	recall         : 0.00	roc_auc        : 0.00	
+2024-01-26 00:55:21,513 - trainer - INFO -     validation     : val_loss       : 0.56	val_accuracy   : 0.71	val_recall     : 0.58	val_roc_auc    : 0.80	
+2024-01-26 00:55:24,340 - trainer - INFO - Saving current best: model_best.pth ...
+2024-01-26 01:46:11,424 - trainer - INFO - epoch: 2
+2024-01-26 01:46:11,424 - trainer - INFO -     train          : loss           : 0.50	accuracy       : 0.77	recall         : 0.00	roc_auc        : 0.00	
+2024-01-26 01:46:11,424 - trainer - INFO -     validation     : val_loss       : 0.51	val_accuracy   : 0.77	val_recall     : 0.80	val_roc_auc    : 0.84	
+2024-01-26 01:46:15,412 - trainer - INFO - Saving current best: model_best.pth ...
+2024-01-26 02:37:08,399 - trainer - INFO - epoch: 3
+2024-01-26 02:37:08,400 - trainer - INFO -     train          : loss           : 0.45	accuracy       : 0.81	recall         : 0.00	roc_auc        : 0.00	
+2024-01-26 02:37:08,400 - trainer - INFO -     validation     : val_loss       : 0.53	val_accuracy   : 0.79	val_recall     : 0.80	val_roc_auc    : 0.85	
+2024-01-26 03:28:04,599 - trainer - INFO - epoch: 4
+2024-01-26 03:28:04,599 - trainer - INFO -     train          : loss           : 0.42	accuracy       : 0.82	recall         : 0.00	roc_auc        : 0.00	
+2024-01-26 03:28:04,599 - trainer - INFO -     validation     : val_loss       : 0.47	val_accuracy   : 0.80	val_recall     : 0.78	val_roc_auc    : 0.86	
+2024-01-26 03:28:08,611 - trainer - INFO - Saving current best: model_best.pth ...
+2024-01-26 04:19:01,296 - trainer - INFO - epoch: 5
+2024-01-26 04:19:01,297 - trainer - INFO -     train          : loss           : 0.40	accuracy       : 0.83	recall         : 0.00	roc_auc        : 0.00	
+2024-01-26 04:19:01,297 - trainer - INFO -     validation     : val_loss       : 0.49	val_accuracy   : 0.79	val_recall     : 0.77	val_roc_auc    : 0.85	
+2024-01-26 05:09:55,396 - trainer - INFO - epoch: 6
+2024-01-26 05:09:55,396 - trainer - INFO -     train          : loss           : 0.39	accuracy       : 0.84	recall         : 0.00	roc_auc        : 0.00	
+2024-01-26 05:09:55,397 - trainer - INFO -     validation     : val_loss       : 0.48	val_accuracy   : 0.81	val_recall     : 0.79	val_roc_auc    : 0.86	
+2024-01-26 06:00:51,702 - trainer - INFO - epoch: 7
+2024-01-26 06:00:51,702 - trainer - INFO -     train          : loss           : 0.38	accuracy       : 0.84	recall         : 0.00	roc_auc        : 0.00	
+2024-01-26 06:00:51,702 - trainer - INFO -     validation     : val_loss       : 0.45	val_accuracy   : 0.81	val_recall     : 0.77	val_roc_auc    : 0.87	
+2024-01-26 06:00:55,565 - trainer - INFO - Saving current best: model_best.pth ...
+2024-01-26 06:51:56,847 - trainer - INFO - epoch: 8
+2024-01-26 06:51:56,854 - trainer - INFO -     train          : loss           : 0.37	accuracy       : 0.85	recall         : 0.00	roc_auc        : 0.00	
+2024-01-26 06:51:56,854 - trainer - INFO -     validation     : val_loss       : 0.51	val_accuracy   : 0.81	val_recall     : 0.78	val_roc_auc    : 0.86	
+2024-01-26 07:42:54,280 - trainer - INFO - epoch: 9
+2024-01-26 07:42:54,281 - trainer - INFO -     train          : loss           : 0.36	accuracy       : 0.85	recall         : 0.00	roc_auc        : 0.00	
+2024-01-26 07:42:54,281 - trainer - INFO -     validation     : val_loss       : 0.46	val_accuracy   : 0.81	val_recall     : 0.79	val_roc_auc    : 0.86	
+2024-01-26 08:33:51,856 - trainer - INFO - epoch: 10
+2024-01-26 08:33:51,856 - trainer - INFO -     train          : loss           : 0.36	accuracy       : 0.85	recall         : 0.00	roc_auc        : 0.00	
+2024-01-26 08:33:51,856 - trainer - INFO -     validation     : val_loss       : 0.51	val_accuracy   : 0.81	val_recall     : 0.80	val_roc_auc    : 0.87	
+2024-01-26 09:24:49,776 - trainer - INFO - epoch: 11
+2024-01-26 09:24:49,777 - trainer - INFO -     train          : loss           : 0.32	accuracy       : 0.87	recall         : 0.00	roc_auc        : 0.00	
+2024-01-26 09:24:49,777 - trainer - INFO -     validation     : val_loss       : 0.48	val_accuracy   : 0.83	val_recall     : 0.81	val_roc_auc    : 0.87	
+2024-01-26 10:16:00,439 - trainer - INFO - epoch: 12
+2024-01-26 10:16:00,440 - trainer - INFO -     train          : loss           : 0.30	accuracy       : 0.88	recall         : 0.00	roc_auc        : 0.00	
+2024-01-26 10:16:00,440 - trainer - INFO -     validation     : val_loss       : 0.53	val_accuracy   : 0.83	val_recall     : 0.81	val_roc_auc    : 0.87	
+2024-01-26 11:07:01,032 - trainer - INFO - epoch: 13
+2024-01-26 11:07:01,032 - trainer - INFO -     train          : loss           : 0.29	accuracy       : 0.88	recall         : 0.00	roc_auc        : 0.00	
+2024-01-26 11:07:01,032 - trainer - INFO -     validation     : val_loss       : 0.55	val_accuracy   : 0.83	val_recall     : 0.81	val_roc_auc    : 0.87	
+2024-01-26 11:07:01,032 - trainer - INFO - Validation performance didn't improve for 5 epochs. Training stops.
+2024-01-26 11:07:01,033 - test - INFO - Loading checkpoint: ../Result_cov_adbab/checkpoints/BERT-Finetunning-Antibody-Binding-common-abdab/0126_000431/model_best.pth ...

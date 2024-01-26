@@ -1,0 +1,11 @@
+2024-01-25 01:22:11,586 - train - INFO - Load 81750 form heavy.
+2024-01-25 01:22:11,587 - train - INFO - Start creating tokenizer...
+2024-01-25 01:22:11,587 - train - INFO - Using common tokenizer.
+2024-01-25 01:22:11,588 - train - INFO - Creating self supervised dataset with 81750 sequences
+2024-01-25 01:22:11,588 - train - INFO - Maximum sequence length: 128
+2024-01-25 01:22:11,588 - train - INFO - Rounded maximum length to 128
+2024-01-25 01:22:11,589 - train - INFO - Split test with 41 examples
+2024-01-25 01:22:11,590 - train - INFO - Split train with 81709 examples
+2024-01-25 01:22:11,590 - train - INFO - Vocab size 25 and pad token id 20
+2024-01-25 01:22:11,591 - train - INFO - Loading RoFormer model
+2024-01-25 01:22:13,007 - train - INFO - Trainable parameters 57338905.
