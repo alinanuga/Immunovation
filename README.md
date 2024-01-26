@@ -24,7 +24,7 @@ python bert_finetuning_seq2seq_main.py --config ./config/common/bert_finetuning_
 ```
 Результат сохранится в папке `../Result_seq2seq/checkpoints/ABAG-Finetuning-Seq2seq-Common/XXXX_XXXXXX/`.
 
-### 3. Генерауия последовательностей CDR3H антитела
+### 3. Генерация последовательностей CDR3H антитела
 
 ```bash
 python generate_antibody.py --config ./config/common/seq2seq_generate.json
